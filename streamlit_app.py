@@ -18,7 +18,7 @@ st.write(
 # reruns (e.g. if the user interacts with the widgets).
 @st.cache_data
 def load_data():
-    df = pd.read_csv("data/cleaned_drought_data.csv")
+    df = pd.read_csv("data/cleaned_drought_data_part1.csv")
     return df
 
 
